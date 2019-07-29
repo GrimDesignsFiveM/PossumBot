@@ -3,7 +3,7 @@ const Discord = require("discord.js");
 const bot = new Discord.Client({disableEveryone: true});
 
 bot.on("ready", async () => {
-	console.log(`PossumBot Is Now Activated`);
+	console.log(`PlumbBot Is Now Activated`);
 	//Bot Status
 	bot.user.setActivity(`With Knives`);
 
